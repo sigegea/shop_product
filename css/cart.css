@@ -1,0 +1,127 @@
+#cart-container{
+    height: 600px;
+    background: #efefef;
+    padding-top: 30px;
+}
+#cart-container h2{
+    margin: 0;
+    padding: 30px 0;
+    color: #333333;
+}
+#cart-detail{
+    width: 750px;
+    float: left;
+}
+#cart-container .wrapper{
+    width: 1200px;
+}
+#cart-detail .commodity-pic{
+    height: 135px;
+    width: 135px;
+    float: left;
+    cursor: pointer;
+}
+.price{
+    float: left;
+    margin-left: 30px;
+    width: 540px;
+    height: 200px;
+}
+.price p{
+    color: #333333;
+    margin-top: 14px;
+    font-size: 14px;
+}
+.price h3 {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.price h3 span{
+    font-size: 13px;
+}
+.price label{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    color: #333;
+}
+.price label input{
+    width: 82px;
+    height: 34px;
+    color: #555555;
+    margin-left: 15px;
+    border-radius: 5px;
+    text-indent: 5px;
+    border: 1px solid #cccccc;
+}
+.price .on-sale{
+    float: right;
+}
+#cart-detail .close{
+    float: left; 
+    cursor: pointer;
+}
+.sale{
+    width: 550px;
+    float: left;
+    padding-top: 30px;
+    border-top: 1px solid #000 ;
+    color: #a6a6a6;
+}
+#price-sum{
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    float: left;
+    height: 290px;
+    width: 250px;
+    border-left: 1px solid #000 ;
+}
+#continue{
+    background: #ffa500;
+    width: 182px;
+    height: 40px;
+    margin-left: 34px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#continue:hover{
+    background: #000;
+}
+#price-sum p{
+    color: #333333;
+    margin-top: 30px;
+    font-size: 18px;
+}
+#price-sum span{
+    float: left;
+    width: 50%;
+    color: #333333;
+    line-height: 25px;
+    font-size: 14px;
+}
+#money{
+    border-bottom: 1px solid #000;
+    height: 90px;
+}
+#price-sum h3{
+   float: left;
+   width: 50%; 
+}
+#submit{
+    background: #333;
+    color: #fff;
+    width: 216px;
+    height: 40px;
+    margin-left: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit:hover{
+    background: #ffa500;
+}

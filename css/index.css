@@ -1,0 +1,103 @@
+#header{
+    height: 600px;
+    width: 1792px;
+    background: url(../img/banner.jpg) center;
+}
+.mail{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    float: left;
+    width: 360px;
+    height: 279px;
+    margin: 50px 70px;
+    position: relative;
+    cursor: pointer;
+}
+.mail span{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+.sail{
+    background: url(../img/bg1.jpg);
+}
+.market{
+    background: url(../img/bg2.jpg);
+}
+.import{
+    background: url(../img/bg3.jpg);
+}
+#product{
+    height: 1520px;
+}
+.show{
+    width: 360px;
+    height: 500px;
+    margin: 30px 70px;
+    float: left;
+    border: 1px #cccccc solid;
+    background: #fcf8ff;
+}
+.show img{
+    width: 280px;
+    height: 280px;
+    border: 1px #cccccc solid;
+    cursor: pointer;
+}
+.show span{
+    background: #fa558f;
+    color: #ffffff;
+    float: right;
+    padding: 5px;
+}
+.price{
+    width: 360px;
+    height: 215px;
+}
+.price h2,h3{
+    margin-left: 10px;
+}
+.count{
+    margin-left: 10px;
+    text-indent: 8px;
+    width: 150px;
+    height: 30px;
+}
+.btn{
+    margin: 20px 10px ;
+    background: #ef8743;
+    color: #ffffff;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+#problem{
+    height: 400px;
+    background: url(../img/banner2.jpg) no-repeat;
+    background-size: 100%;
+}
+#problem .wrapper{
+    width: 1200px;
+}
+.instruct{
+    margin-top: 100px;
+    float: left;
+    color: #ffffff;
+    width: 200px;
+}
+.instruct li{
+    padding: 10px 30px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.instruct a{
+    text-decoration: none;
+    color: #fff;
+}
+.instruct .problem-title{
+    font-weight: bolder;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}

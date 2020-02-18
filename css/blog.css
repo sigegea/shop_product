@@ -1,0 +1,38 @@
+#blog {
+    margin-bottom: 30px;
+}
+#blog .wrapper{
+    width: 1040px;
+}
+#blog h2{
+    color: #3c3b3b;
+    font-size: 35px;
+}
+#blog a{
+    color: #525252;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    margin: 20px 0;
+}
+#blog a:hover{
+    color: #fa558f;
+}
+#blog p{
+    color: #999999;
+    line-height: 30px;
+}
+#blog button{
+    color: #fff;
+    background: #fa558f;
+    border: 0;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#blog button:hover{
+    background: #f12a2a;
+}

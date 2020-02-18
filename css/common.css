@@ -1,0 +1,131 @@
+.wrapper{
+    width: 1560px;
+    margin: 0 auto;
+}
+#header{
+    height: 300px;
+    width: 1792px;
+    background: url(../img/banner.jpg) center;
+}
+#login{
+    text-decoration: none; 
+}
+.font{
+    color: #ffffff;
+    float: left;
+}
+#cart{
+    width: 260px;
+    height: 60px;
+    background: #333;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    text-align: center;
+    line-height: 60px;
+    margin-top: 20px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+
+#cart img{
+    vertical-align: middle;
+}
+#main-header{
+    height: 100px; 
+}
+#main-header span{
+    float: right;
+    color: #ffffff;
+    margin-right: 80px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#login,#title{
+    width: 520px;
+    line-height: 100px;  
+}
+#title{
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+}
+#login a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#login a:hover{
+    text-decoration: underline;
+}
+#sub-list{
+    padding: 0;
+}
+#sub-list>li{
+    float: left;
+    width: 260px;
+    height: 50px;
+    list-style: none;
+    background: #fa558f;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+} 
+#sub-list #selected{
+    background: #3c3b3b;
+
+}
+#sub-list li>a{
+   color: #ffffff;
+   text-decoration: none;
+}
+#sub-list>li:hover{
+    background: #3c3b3b;
+}
+#detail{
+    background: #fff;
+    margin-left: -260px;
+    width: 1560px;
+    height: 380px;
+    display: none;
+}
+#make-up:hover #detail{
+    display: block;
+}
+#sorted>li{
+    width: 260px;
+    border-bottom: 1px solid #777;
+    color: #000;
+    list-style:none;
+    float: left;
+    margin-right: 20px;
+    text-align: left;
+}
+.care{
+    width: 240px;
+    color: #777;
+    float: left;
+    list-style: none;
+    text-align: left;
+    cursor: pointer;
+}
+#footer{
+    height: 100px;
+    background: #fa558f;
+    color: #fff;
+    line-height: 100px;
+    float: left;
+    width: 1792px;
+}
+#footer h2{
+    float: left;
+    margin: 0;
+    cursor: pointer;
+}
+#footer h3{
+    float: right;
+    margin: 0;
+}
+#footer .wrapper{
+    width: 1300px;
+}

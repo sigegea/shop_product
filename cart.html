@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>磊的购物车</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div id="header">
+        <div class="wrapper">
+            <div id="main-header">
+                <div id="login" class="font">
+                    <a href="login.html" >登陆</a>
+                </div>
+                <h1 id="title" class="font">我的小店</h1>
+                <a href="cart.html">
+                    <div id="cart" class="font">购物车：$0.00(0件)
+                        <img src="img/cart.png" alt="">
+                    </div>
+                </a>
+                <span>清空购物车</span>
+            </div>
+            <ul id="sub-list">
+                <li><a href="index.html">首页</a></li>
+                <li id="make-up">美妆商城
+                    <div id="detail">
+                        <ul id="sorted">
+                            <li>护肤</li>
+                            <li>彩妆</li>
+                            <li>香水</li>
+                            <li>男士护理</li>
+                            <li>个人护理</li>
+                        </ul>
+                        <ul class="care">
+                            <li>洁面</li>
+                            <li>化妆水</li>
+                            <li>乳液</li>
+                            <li>精华</li>
+                            <li>面膜</li>
+                            <li>面霜</li>
+                        </ul>
+                        <ul class="care">
+                            <li>底妆</li>
+                            <li>眼妆</li>
+                            <li>唇妆</li>
+                            <li>卸妆</li>
+                            <li>美妆工具</li>
+                            <li>套装</li>
+                        </ul>
+                        <ul class="care">
+                            <li>女士香水</li>
+                            <li>男士香水</li>
+                            <li>中性香水</li>
+                            <li>Q版香水</li>
+                            <li>香水套装</li>
+                            <li>精油</li>
+                        </ul>
+                        <ul class="care">
+                            <li>面部护理</li>
+                            <li>身体护理</li>
+                            <li>护理套装</li>
+                            <li>洁面</li>
+                            <li>爽肤水</li>
+                            <li>男士洗护</li>
+                        </ul>
+                        <ul class="care">
+                            <li>秀发护理</li>
+                            <li>身体护理</li>
+                            <li>纤体</li>
+                            <li>手足护理</li>
+                            <li>卫生巾</li>
+                            <li>口腔护理</li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="selected"><a href="new-sale.html">特卖专场</a></li id="selected">
+                <li><a href="">新品上市</a></li>
+                <li><a href="">美丽课堂</a></li>
+                <li><a href="">进口免税店</a></li>
+            </ul>
+        </div>
+    </div> 
+    <div id="cart-container">
+        <div  class="wrapper">
+            <h2>我的购物车 (2)</h2>
+            <div id="cart-detail">
+                <div class="commodity">
+                    <img class="commodity-pic" src="img/pic-2.jpg" alt="">
+                    <div class="price">
+                        <p>科颜氏高保湿精华爽肤水250ml</p>
+                        <h3><span>价格：¥</span>160.00</h3>
+                        <label>
+                            <span>数量 :</span>
+                            <input type="number" value="1">
+                        </label><br>
+                        <div class="sale">
+                            <span>优惠: ¥10.00</span>
+                            <span class="on-sale">预计3-5天送达</span>
+                        </div>             
+                    </div>           
+                    <img class="close" src="img/close.png" alt="">
+                </div>
+                <div id="cart-detail">
+                    <div class="commodity">
+                        <img class="commodity-pic" src="img/pic-1.jpg" alt="">
+                        <div class="price">
+                            <p>兰蔻(Lancome)清滢柔肤水</p>
+                            <h3><span>价格：¥</span>210.00</h3>
+                            <label>
+                                <span>数量 :</span>
+                                <input type="number" value="1">
+                            </label><br>
+                            <div class="sale">
+                                <span>优惠: ¥10.00</span>
+                                <span class="on-sale">预计3-5天送达</span>
+                            </div>             
+                        </div>           
+                        <img class="close" src="img/close.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="price-sum">
+            <button id="continue">继续购物</button>
+            <p>价格详述</p>
+            <div id="money">
+                <span>总计</span><span>350.00</span>
+                <span>优惠</span><span>---</span>
+                <span>运费</span><span>10.00</span>
+            </div>
+            <h3>总计</h3>
+            <h3>360.00</h3>
+            <button id="submit">提交订单</button>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="wrapper">
+            <h2>我的小店</h2>
+            <h3>Copyright © 2017.我的小店 by 小美妞</h3>
+        </div>
+    </div>
+</body>
+</html>

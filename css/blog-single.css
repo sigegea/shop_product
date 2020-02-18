@@ -1,0 +1,23 @@
+#blog-single .wrapper{
+    width: 1000px;
+}
+#blog-single h2{
+    color: #3c3b3b;
+    margin-top: 30px;
+    font-size: 35px;
+}
+#blog-single img{
+    width: 990px;
+}
+#blog-single p{
+    color: #999999;
+    line-height: 30px;
+}
+#blog-single h3{
+    color: #333333;
+    font-size: 23px;
+    margin: 30px 0;
+}
+#blog-single{
+    margin-bottom: 50px;
+}

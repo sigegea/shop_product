@@ -1,0 +1,53 @@
+#register{
+    height: 500px;
+    width: 600px;
+    float: left;
+}
+#register-container .wrapper{
+    height: 600px;
+    width: 1350px;
+}
+#register-container h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.promise-introduce{
+    color: #999999;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 14px;
+}
+#register p a{
+    color: #000;
+    text-decoration: none;
+}
+#register span{
+    float: left;
+    width: 200px;
+    color: #5d5959;
+    height: 40px;
+    line-height: 40px;
+} 
+#register label input{
+    float: left;
+    margin: 8px 0;
+    width: 300px;
+    height: 30px;
+}
+button{
+    background: #ef8743;
+    color: #ffffff;
+    font-size: 18px;
+    width: 350px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    border: 0;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+#promise h3{
+    color: #ef8743;
+    margin-top: 30px;
+}

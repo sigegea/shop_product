@@ -1,0 +1,99 @@
+#product{
+    height: 1200px;
+}
+#product .wrapper>h2{
+    color: #3b3c3c;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+#product-brand{
+    float: left;
+    margin-right: 50px;
+}
+#brand{
+    width: 300px;
+}
+#brand h4{
+    background: #464646;
+    color: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+#brand ul{
+    padding: 0;
+}
+#brand ul img{
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#brand li{
+    list-style: none;
+    background: #f9f9f9;
+    color: #8c8c8c;
+    line-height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+     cursor: pointer;
+}
+#brand label{
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #555555;
+    font-size: 15px;
+    line-height: 15px;
+}
+#brand label input{
+    margin-right: 10px;
+}
+#product-detail{
+    margin-left: 30px;
+}
+.show{
+    width: 300px;
+    height: 475px;
+    margin: 30px 50px;
+    float: left;
+    border: 1px #cccccc solid;
+    background: #fcf8ff;
+}
+.show img{
+    width: 300px;
+    height: 250px;
+    border-bottom: 1px #cccccc solid;
+    cursor: pointer;
+}
+.show span{
+    background: #fa558f;
+    color: #ffffff;
+    float: right;
+    padding: 5px;
+}
+.price{
+    width: 360px;
+    height: 200px;
+}
+.price h2,h3{
+    margin-left: 10px;
+}
+.count{
+    margin-left: 10px;
+    text-indent: 8px;
+    width: 150px;
+    height: 30px;
+}
+.btn{
+    margin: 18px 10px ;
+    background: #ef8743;
+    color: #ffffff;
+    border: 0;
+    width: 156px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
